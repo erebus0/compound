@@ -1,0 +1,25 @@
+{
+  "name": "compound",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "supply": "node supply-eth.js",
+    "rinkeby": "node rinkeby-supply-eth.js",
+    "erc20": "node supply-erc20.js",
+    "borrow": "node borrow-erc20-using-eth.js",
+    "borroweth":"node borrow-eth-using-erc20.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "web3": "^1.5.2"
+  },
+  "engines": {
+    "node": "12.x"
+  }
+}
