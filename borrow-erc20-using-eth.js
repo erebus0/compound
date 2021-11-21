@@ -8,7 +8,7 @@ const {
     priceFeedAbi,
     cErcAbi,
     erc20Abi,
-  } = require('./contract-for-borrow-erc20-using-eth.json');
+  } = require('./contracts.json');
   
   // Your Ethereum wallet private key
   const privateKey = '52b411a1f93e232cb2c1d974f805f8af38d43e5d548b3ab029926a0ebedaceff';

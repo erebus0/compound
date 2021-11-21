@@ -4,7 +4,7 @@ const web3 = new Web3(process.env.INFURA_URL);
 const config = require('./config.json');
 
 // Your Ethereum wallet private key
-const privateKey = '0xe26a89daf717a5e69965F75FD50916888A8aCcFb';
+const privateKey = '52b411a1f93e232cb2c1d974f805f8af38d43e5d548b3ab029926a0ebedaceff';
 
 // Add your Ethereum wallet to the Web3 object
 web3.eth.accounts.wallet.add('0x' + privateKey);
